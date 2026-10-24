@@ -1,0 +1,16 @@
+name: deeplearning
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - notebook
+  - jupyterlab
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - transformers
+      - nltk
+      - gensim
