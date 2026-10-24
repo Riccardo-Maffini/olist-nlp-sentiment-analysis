@@ -22,6 +22,20 @@ Salvati in `outputs/`:
 - **Temi negativi:** quota di ogni tema e scarto dalla media nelle categorie con voto più basso.
 - **Word cloud:** parole più pesanti di ognuno dei 5 temi.
 
+## Risultati
+
+### Sentiment vs stelle
+![Sentiment vs stelle](outputs/01_sentiment_vs_stelle.png)
+
+### Puntualità della consegna
+![Puntualità](outputs/02_puntualita.png)
+
+### Temi delle recensioni negative
+![Temi negativi](outputs/03_temi_negativi.png)
+
+### Word cloud dei temi
+![Wordcloud temi](outputs/04_wordcloud_temi.png)
+
 ## Risultati principali
 
 - **Modello:** su 300 recensioni il BERT scelto riconosce l'83% dei negativi e l'89% dei positivi (F1 0,86). Sulle 40.656 recensioni con testo: 68,6% positive, 31,3% negative; la quota di negativi scende con le stelle (86,8%, 75,3%, 52,0%, 16,2%, 3,7% per i voti da 1 a 5). Per ordine, la correlazione di Spearman tra probabilità di negativo e voto è -0,72.
